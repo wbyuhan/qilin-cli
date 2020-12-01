@@ -1,8 +1,15 @@
 {
     "name": "qilin-cli",
     "version": "1.0.0",
-    "description": "",
+    "description": "wbyuhan",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wbyuhan/qilin-cli.git"
+    },
+    "bin": {
+        "create": "./lib/index.js"
+    },
     "scripts": {
         "start": "webpack-dev-server --config webpack/webpack.config.dev.js",
         "build": "webpack-dev-server --config webpack/webpack.config.prod.js",
